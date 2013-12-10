@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vanishing Act</title>
+        <link rel='stylesheet' type='text/css' href='main.css'/>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#text").click(function(){
+                    $("#text").addClass(".highlighted");
+                })
+            });
+        </script>
+    </head>
+	<body>
+        <div id="title" class="highlighted">I'm highlighted!</div>
+        <div id="text">Highlight me, too!</div>
+	</body>
+</html>
